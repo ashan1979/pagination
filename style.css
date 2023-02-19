@@ -191,3 +191,25 @@ Pagination
     transition: var(--transition);
     cursor: pointer;
 }
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page-btn {
+    width: 2rem;
+    height: 2rem;
+    background: var(--clr-primary-7);
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: var(--transition);
+}
+
+.active-btn {
+    background: var(--clr-primary-1);
+    color: var(--clr-white);
+}

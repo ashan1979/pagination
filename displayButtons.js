@@ -6,4 +6,9 @@ const displayButtons = (container, pages, activeIndex) => {
         ${pageIndex + 1}
         </button>`
     })
+    btns.push(`<button class="next-btn">Next</button>`)
+    btns.unshift(`<button class="prev-btn">Prev</button>`)
+    container.innerHTML = btns.join('')
 }
+
+export default displayButtons
